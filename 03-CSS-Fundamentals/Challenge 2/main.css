@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: auto;
+}
+article {
+  border: 5px solid black;
+  /* padding: 10px; */
+  width: 900px;
+  margin: 50px auto;
+  height: auto;
+}
+ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+h2 {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+h2::after {
+  content: "SALE";
+  color: #fff;
+  /* font-weight: 300; */
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: red;
+  position: absolute;
+  top: -20px;
+  left: -35px;
+}
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+strong {
+  font-size: 24px;
+}
+
+.light {
+  color: #777;
+}
+
+button {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 19px;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+h3 {
+  font-weight: 800;
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+
+.main {
+  position: relative;
+  width: 300px;
+}
+
+.main div {
+  /* position: absolute; */
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+  /* background-color: red; */
+  width: 20px;
+  height: 20px;
+}
+.main div:first-child {
+  background-color: black;
+}
+.main div:nth-child(2) {
+  background-color: blue;
+}
+.main div:nth-child(3) {
+  background-color: red;
+}
+.main div:nth-child(4) {
+  background-color: yellow;
+}
+.main div:nth-child(5) {
+  background-color: green;
+}
+.main div:last-child {
+  background-color: brown;
+}
