@@ -17,7 +17,7 @@ body {
 
 .container {
   /*   background-color: red; */
-  display: flex;
+  /* display: flex; */
   gap: 40px;
 }
 
@@ -30,6 +30,9 @@ body {
   width: 825px;
   margin: 50px auto;
   position: relative;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
 
 .product-title {
@@ -38,6 +41,7 @@ body {
   text-transform: uppercase;
   background-color: #f7f7f7;
   padding: 15px;
+  grid-column: 1 / -1;
 }
 
 /* PRODUCT INFORMATION */
@@ -150,6 +154,7 @@ body {
 
 /* BUTTON */
 .add-cart {
+  grid-column: 1 / -1;
   background-color: #000;
   border: none;
   color: #fff;
